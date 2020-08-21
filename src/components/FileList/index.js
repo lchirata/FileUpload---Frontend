@@ -1,6 +1,6 @@
 import React from 'react';
 import { CircularProgressbar } from 'react-circular-progressbar';
-import { MdCheckCircle, MdError, MdLink } from 'react-icons/md';
+import { MdCheckCircle, MdError } from 'react-icons/md';
 
 import { Container, FileInfo, Preview } from "./styles";
 
@@ -43,7 +43,7 @@ const FileList = ({ files, onDelete }) => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <MdLink style={{ marginRight: 8 }} size={24} color="#222" />
+              {/* <MdLink style={{ marginRight: 8 }} size={24} color="#222" /> */}
             </a>
           )}
 
